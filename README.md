@@ -18,23 +18,36 @@ python3 -m venv .venv
 
 Open http://127.0.0.1:8000. Games are stored in `data/entente.db`.
 
-**Run locally against the Neon database:**
+**Host your own copy (free, Vercel + Neon):**
+
+You need free accounts on [GitHub](https://github.com) and [Vercel](https://vercel.com), plus Node.js for the `npx` commands.
+
+1. Fork this repo, or push your clone to your own GitHub account.
+2. Create your Vercel project from the repo folder:
+   ```sh
+   npx vercel login
+   npx vercel link        # answer "yes" to create a new project
+   ```
+3. Add a database. In the Vercel dashboard, open your project → **Storage** → **Create Database** → **Neon** (Free plan), and connect it to Production. This sets `DATABASE_URL` for you.
+4. Optional: to make phase timers fire while every browser is closed, also add the **Upstash QStash** integration from the Vercel Marketplace, which sets the `QSTASH_*` variables. Then set `APP_URL` to your own site address, e.g. `https://your-project.vercel.app`:
+   ```sh
+   npx vercel env add APP_URL production
+   ```
+5. Deploy:
+   ```sh
+   npx vercel --prod
+   ```
+
+The app creates its database tables on first start. It refuses to start on Vercel without `DATABASE_URL`, so games are never saved to throwaway storage. See `.env.example` for every variable. Never commit `.env.local`.
+
+**Run locally against your Neon database:**
 
 ```sh
-npx vercel link            # pick the entente-diplomacy project
 npx vercel env pull .env.local
 npx vercel env run -- .venv/bin/python app.py
 ```
 
-This connects to the live Neon database, so don't run destructive tests against it.
-
-**Deploy to Vercel:**
-
-```sh
-npx vercel --prod
-```
-
-Vercel needs `DATABASE_URL`, which the Neon integration sets for you. The QStash variables are optional and only needed for phase timers. See `.env.example` for the full list. Never commit `.env.local`.
+This uses your live database, so don't run destructive tests against it.
 
 ## Play
 
