@@ -9,8 +9,8 @@ Live: https://entente-diplomacy.vercel.app
 **Run locally (SQLite, no setup):**
 
 ```sh
-git clone https://github.com/nathanpljohnson/entente-diplomacy.git
-cd entente-diplomacy
+git clone https://github.com/nathanpljohnson/Diplomacy.git
+cd Diplomacy
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
 .venv/bin/python app.py
