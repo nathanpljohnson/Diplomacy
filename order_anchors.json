@@ -1,0 +1,569 @@
+{
+  "ADR": {
+    "center": [
+      811.992,
+      1069.6
+    ],
+    "clearance": 25.985
+  },
+  "AEG": {
+    "center": [
+      1063.5,
+      1250.0
+    ],
+    "clearance": 26.263
+  },
+  "ALB": {
+    "center": [
+      929.0,
+      1135.0
+    ],
+    "clearance": 14.847
+  },
+  "ANK": {
+    "center": [
+      1321.5,
+      1130.0
+    ],
+    "clearance": 37.867
+  },
+  "APU": {
+    "center": [
+      828.0,
+      1149.0
+    ],
+    "clearance": 15.869
+  },
+  "ARM": {
+    "center": [
+      1504.5,
+      1110.0
+    ],
+    "clearance": 36.07
+  },
+  "BAL": {
+    "center": [
+      898.5,
+      630.0
+    ],
+    "clearance": 30.005
+  },
+  "BAR": {
+    "center": [
+      1182.5,
+      93.0
+    ],
+    "clearance": 47.187
+  },
+  "BEL": {
+    "center": [
+      581.5,
+      773.0
+    ],
+    "clearance": 23.497
+  },
+  "BER": {
+    "center": [
+      774.222,
+      692.425
+    ],
+    "clearance": 25.983
+  },
+  "BLA": {
+    "center": [
+      1253.5,
+      1020.0
+    ],
+    "clearance": 34.337
+  },
+  "BOH": {
+    "center": [
+      821.263,
+      822.383
+    ],
+    "clearance": 26.0
+  },
+  "BOT": {
+    "center": [
+      961.5,
+      505.0
+    ],
+    "clearance": 29.25
+  },
+  "BRE": {
+    "center": [
+      426.471,
+      837.981
+    ],
+    "clearance": 26.0
+  },
+  "BUD": {
+    "center": [
+      970.5,
+      924.0
+    ],
+    "clearance": 67.639
+  },
+  "BUL": {
+    "center": [
+      1068.5,
+      1088.0
+    ],
+    "clearance": 33.991
+  },
+  "BUL/EC": {
+    "center": [
+      1099.922,
+      1072.338
+    ],
+    "clearance": 25.971
+  },
+  "BUL/SC": {
+    "center": [
+      1069.607,
+      1108.022
+    ],
+    "clearance": 25.974
+  },
+  "BUR": {
+    "center": [
+      579.5,
+      891.0
+    ],
+    "clearance": 27.5
+  },
+  "CLY": {
+    "center": [
+      455.922,
+      511.897
+    ],
+    "clearance": 10.0
+  },
+  "CON": {
+    "center": [
+      1165.5,
+      1157.0
+    ],
+    "clearance": 36.683
+  },
+  "DEN": {
+    "center": [
+      722.473,
+      603.631
+    ],
+    "clearance": 26.0
+  },
+  "EAS": {
+    "center": [
+      1238.5,
+      1331.0
+    ],
+    "clearance": 29.0
+  },
+  "EDI": {
+    "center": [
+      481.559,
+      533.652
+    ],
+    "clearance": 10.0
+  },
+  "ENG": {
+    "center": [
+      409.209,
+      762.483
+    ],
+    "clearance": 25.97
+  },
+  "FIN": {
+    "center": [
+      1008.5,
+      400.0
+    ],
+    "clearance": 59.184
+  },
+  "GAL": {
+    "center": [
+      1024.165,
+      843.726
+    ],
+    "clearance": 25.978
+  },
+  "GAS": {
+    "center": [
+      442.5,
+      932.0
+    ],
+    "clearance": 33.491
+  },
+  "GRE": {
+    "center": [
+      977.6,
+      1199.01
+    ],
+    "clearance": 25.972
+  },
+  "HEL": {
+    "center": [
+      670.514,
+      623.3
+    ],
+    "clearance": 25.971
+  },
+  "HOL": {
+    "center": [
+      610.0,
+      736.0
+    ],
+    "clearance": 17.62
+  },
+  "ION": {
+    "center": [
+      866.5,
+      1306.0
+    ],
+    "clearance": 54.0
+  },
+  "IRI": {
+    "center": [
+      355.5,
+      681.0
+    ],
+    "clearance": 39.558
+  },
+  "KIE": {
+    "center": [
+      703.5,
+      721.0
+    ],
+    "clearance": 37.415
+  },
+  "LON": {
+    "center": [
+      484.902,
+      705.735
+    ],
+    "clearance": 25.971
+  },
+  "LVN": {
+    "center": [
+      1045.5,
+      587.0
+    ],
+    "clearance": 38.302
+  },
+  "LVP": {
+    "center": [
+      468.0,
+      597.0
+    ],
+    "clearance": 12.781
+  },
+  "LYO": {
+    "center": [
+      534.3,
+      1075.0
+    ],
+    "clearance": 48.085
+  },
+  "MAO": {
+    "center": [
+      161.8,
+      855.3
+    ],
+    "clearance": 79.559
+  },
+  "MAR": {
+    "center": [
+      544.549,
+      993.758
+    ],
+    "clearance": 25.958
+  },
+  "MOS": {
+    "center": [
+      1220.5,
+      610.0
+    ],
+    "clearance": 85.393
+  },
+  "MUN": {
+    "center": [
+      713.5,
+      848.0
+    ],
+    "clearance": 45.592
+  },
+  "NAF": {
+    "center": [
+      345.5,
+      1301.0
+    ],
+    "clearance": 49.971
+  },
+  "NAO": {
+    "center": [
+      200.1,
+      308.2
+    ],
+    "clearance": 200.1
+  },
+  "NAP": {
+    "center": [
+      825.514,
+      1190.242
+    ],
+    "clearance": 9.998
+  },
+  "NTH": {
+    "center": [
+      573.5,
+      580.0
+    ],
+    "clearance": 68.326
+  },
+  "NWG": {
+    "center": [
+      672.7,
+      201.8
+    ],
+    "clearance": 154.749
+  },
+  "NWY": {
+    "center": [
+      723.5,
+      430.0
+    ],
+    "clearance": 47.194
+  },
+  "PAR": {
+    "center": [
+      502.181,
+      849.343
+    ],
+    "clearance": 26.0
+  },
+  "PIC": {
+    "center": [
+      543.503,
+      800.598
+    ],
+    "clearance": 10.0
+  },
+  "PIE": {
+    "center": [
+      649.523,
+      978.638
+    ],
+    "clearance": 25.97
+  },
+  "POR": {
+    "center": [
+      195.936,
+      1030.039
+    ],
+    "clearance": 26.0
+  },
+  "PRU": {
+    "center": [
+      880.751,
+      704.077
+    ],
+    "clearance": 26.0
+  },
+  "ROM": {
+    "center": [
+      752.289,
+      1116.715
+    ],
+    "clearance": 10.0
+  },
+  "RUH": {
+    "center": [
+      641.864,
+      796.394
+    ],
+    "clearance": 26.0
+  },
+  "RUM": {
+    "center": [
+      1112.829,
+      990.146
+    ],
+    "clearance": 25.988
+  },
+  "SER": {
+    "center": [
+      953.5,
+      1070.0
+    ],
+    "clearance": 28.822
+  },
+  "SEV": {
+    "center": [
+      1304.5,
+      865.0
+    ],
+    "clearance": 29.496
+  },
+  "SIL": {
+    "center": [
+      858.227,
+      782.408
+    ],
+    "clearance": 26.0
+  },
+  "SKA": {
+    "center": [
+      765.0,
+      580.0
+    ],
+    "clearance": 18.105
+  },
+  "SMY": {
+    "center": [
+      1273.5,
+      1230.0
+    ],
+    "clearance": 40.74
+  },
+  "SPA": {
+    "center": [
+      355.5,
+      1059.0
+    ],
+    "clearance": 60.486
+  },
+  "SPA/NC": {
+    "center": [
+      309.0,
+      985.0
+    ],
+    "clearance": 28.12
+  },
+  "SPA/SC": {
+    "center": [
+      300.589,
+      1171.833
+    ],
+    "clearance": 25.967
+  },
+  "STP": {
+    "center": [
+      1186.5,
+      425.0
+    ],
+    "clearance": 58.374
+  },
+  "STP/NC": {
+    "center": [
+      1241.693,
+      237.539
+    ],
+    "clearance": 26.0
+  },
+  "STP/SC": {
+    "center": [
+      1086.0,
+      507.0
+    ],
+    "clearance": 28.625
+  },
+  "SWE": {
+    "center": [
+      849.5,
+      479.0
+    ],
+    "clearance": 43.863
+  },
+  "SYR": {
+    "center": [
+      1472.5,
+      1226.0
+    ],
+    "clearance": 56.57
+  },
+  "TRI": {
+    "center": [
+      845.5,
+      1016.0
+    ],
+    "clearance": 35.928
+  },
+  "TUN": {
+    "center": [
+      638.424,
+      1322.213
+    ],
+    "clearance": 26.0
+  },
+  "TUS": {
+    "center": [
+      697.0,
+      1035.0
+    ],
+    "clearance": 16.795
+  },
+  "TYR": {
+    "center": [
+      762.5,
+      924.0
+    ],
+    "clearance": 12.163
+  },
+  "TYS": {
+    "center": [
+      718.5,
+      1169.1
+    ],
+    "clearance": 48.253
+  },
+  "UKR": {
+    "center": [
+      1144.5,
+      820.0
+    ],
+    "clearance": 50.905
+  },
+  "VEN": {
+    "center": [
+      724.081,
+      1014.694
+    ],
+    "clearance": 10.0
+  },
+  "VIE": {
+    "center": [
+      869.419,
+      880.003
+    ],
+    "clearance": 26.0
+  },
+  "WAL": {
+    "center": [
+      443.0,
+      715.0
+    ],
+    "clearance": 14.442
+  },
+  "WAR": {
+    "center": [
+      1003.5,
+      760.0
+    ],
+    "clearance": 30.853
+  },
+  "WES": {
+    "center": [
+      482.5,
+      1183.0
+    ],
+    "clearance": 44.68
+  },
+  "YOR": {
+    "center": [
+      495.0,
+      631.0
+    ],
+    "clearance": 16.061
+  }
+}

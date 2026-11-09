@@ -1,0 +1,13 @@
+data/
+.venv/
+__pycache__/
+.pytest_cache/
+.vercel/
+.env
+.env.*
+!.env.example
+*.pyc
+.vercel
+.env*
+public/source.zip
+!.env.example
